@@ -1,0 +1,190 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 30px;
+  margin: 1.5em;
+  border: 0em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  line-height: 100%;
+  background-image: url(images/use_your_illusion_@2X.png);
+  background: cover;
+
+}
+
+a{
+ text-decoration: none; 
+}
+
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 32px;
+}
+
+li{
+  list-style-type: none;
+  padding: 0 20px;
+  display: inline-block;
+}
+
+a {
+  color: #6e6262;
+  font-size: 27px;
+}
+a:hover{
+  transition: all 0.65 ease-out;
+  color: #ffffff;
+  font-size: 26px;
+
+}
+
+li.active a{
+  font-size: 28px;
+  color: #5892c0;
+}
+
+nav{
+  width:100%;
+  text-align: center;
+  padding-bottom: 1.5em;
+  }
+
+
+
+footer{
+  color: #5892c0;
+  text-align: center;
+  width: 100%;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.row.center{
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.container {
+  
+  overflow: hidden;
+}
+
+.container .col {
+  flex: 1;
+}
+
+p{
+  color: #ffffff;
+  font-size: 0.7em;
+  padding: 0.5em;
+  text-align: justify;
+  text-justify: inter-character;
+}
+
+.box {
+  display: table;
+  transition: width 2s, height 1s, background-color 0.6s, transform 2s;
+  padding: 2vh;
+  align-items: center;
+}
+
+
+.box .hover{
+  display: none;
+}
+
+.box:hover .hover{
+  display: block;
+  color: #5892c0;
+}
+
+.box:hover span{
+  display: none;
+}
+span{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px;
+  color: #5892c0;
+}
+
+h3{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.70em;
+  text-align: center;
+  color: #5892c0;
+  text-decoration: none;
+  text-decoration-color: #444040;
+  
+}
+
+
+h1{
+  text-align:center;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-bottom:0em;
+  font-size: 1em;
+  color: #ffffff;
+  text-decoration:none;
+  
+}
+section{
+  display: inline;
+}
+
+
+.team-image{
+  width: 30vw;
+
+}
+
+img{
+  width: 100%;
+}
+
+
+h4{
+  text-align: center;
+  text-decoration: none;
+  
+}
+
+table, th, td {
+  border: 2px solid black;
+}
+
+table {
+  width:auto;
+  
+}
+
+th {
+  text-align: center;
+  width: auto;
+}
+
+td{
+  width: auto;
+  text-align: center;
+}
+
+table{
+  
+  background: rgba(204, 204, 204, 0.2);
+}
+
+text1{
+  text-align: center;
+  color:#fff;
+  padding-bottom: 1.5em;
+}
+
