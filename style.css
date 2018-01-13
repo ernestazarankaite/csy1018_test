@@ -201,3 +201,19 @@ text1{
   padding-bottom: 1.5em;
 }
 
+.imagecontainer {
+  width: 600px;
+  height: 400px;
+  display: block;
+  position: centre;
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.imagecontainer img {
+  position: centre;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
