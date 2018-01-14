@@ -7,12 +7,11 @@ body {
   flex-direction: column;
   min-height: 100vh;
   line-height: 100%;
-  background-image: url(images/use_your_illusion_@2X.png);
+  background-image: url(images/use_your_illusion_@2X.png); /* chose this backround of its simplicity, really dont like overloaded pages */
   background: cover;
 
 }
-
-
+ 
 
 a{
  text-decoration: none; 
@@ -34,9 +33,9 @@ a {
   font-size: 27px;
 }
 a:hover{
-  transition: all 0.65 ease-out;
+  transition: all 0.9s ease-out; /* animation for navigation and external links */
   color: #ffffff;
-  font-size: 26px;
+  font-size: 25px;
 
 }
 
@@ -51,7 +50,10 @@ nav{
   padding-bottom: 1.5em;
   }
 
+section{
 
+  padding: 1em;
+}
 
 footer{
   color: #5892c0;
