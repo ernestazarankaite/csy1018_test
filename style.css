@@ -12,6 +12,8 @@ body {
 
 }
 
+
+
 a{
  text-decoration: none; 
 }
@@ -132,7 +134,7 @@ h1{
   text-align:center;
   font-family: 'Roboto Condensed', sans-serif;
   padding-bottom:0em;
-  font-size: 1em;
+  font-size: 0.8em;
   color: #ffffff;
   text-decoration:none;
   
@@ -142,8 +144,8 @@ h2{
   text-align:center;
   font-family: 'Roboto Condensed', sans-serif;
   padding-bottom:0em;
-  font-size: 0.6em;
-  color: #c6dd92;
+  font-size: 0.8em;
+  color: #a2a350;
   text-decoration:none;
   
 }
@@ -195,15 +197,24 @@ table{
   background: rgba(204, 204, 204, 0.2);
 }
 
-text1{
+h5{
   text-align: center;
   color:#fff;
   padding-bottom: 1.5em;
+  font-size: 1em;
+}
+
+.header {
+  height:50px;
+  background:#F0F0F0;
+  border:1px solid #CCC;
+  width:960px;
+  margin:0px auto;
 }
 
 .imagecontainer {
   width: 600px;
-  height: 400px;
+  height: 300px;
   display: block;
   position: centre;
   overflow: hidden;
